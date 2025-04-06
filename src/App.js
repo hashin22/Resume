@@ -7,21 +7,26 @@ import js from './javascipt.png';
 
 function App() {
   return (
-    <div className="resume-container">
-      {/* ✅ 사이드 메뉴 */}
+    <div className="main-layout">
       <nav className="side-nav">
         <a href="#about">ABOUT</a>
         <a href="#skills">SKILLS</a>
         <a href="#projects">PROJECT</a>
         <a href="#license">LICENSE</a>
       </nav>
-
-      <header className="header">
-        <img src={profile} alt="증명사진" className="profile-photo" />
-        <div>
-          <h1>서비스 운영자에 지원한 👨‍💻 신하란입니다.</h1>
-        </div>
-      </header>
+  
+      <div className="resume-container">
+        <header className="header">
+          <img src={profile} alt="증명사진" className="profile-photo" />
+          <div>
+            <h1>서비스 운영자에 지원한 👨‍💻 신하란입니다.</h1>
+          </div>
+        </header>
+  
+        {/* 👇 아래에 About, Skills, Project, License 섹션들 추가 */}
+      </div>
+    </div>
+  );
 
       {/* 📍 ABOUT ME */}
       <section id="about" className="section">
