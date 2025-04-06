@@ -128,9 +128,9 @@ function App() {
           <div className="license-item">
             <p>📌 운전면허 2종 보통 (Driver’s License – Type 2, Manual)</p>
           </div>
-        </section> 
-      </div>      
-    </div>         /* main-layout */
+          </section> {/* LICENSE */}
+      </div> {/* resume-container */}
+    </div> {/* main-layout */}
   );
 }
 
