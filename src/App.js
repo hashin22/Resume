@@ -25,7 +25,7 @@ function App() {
         <ul>
           <li>이메일: hashin22@naver.com</li>
           <li>전화번호: 010-1234-3456</li>
-          <li>GitHub: <a href="https://github.com/hashin22/Resume" target="_blank" rel="noreferrer">github.com/hashin22</a></li>
+          <li>GitHub: <a href="https://hashin22.github.io/Resume" target="_blank" rel="noreferrer">github.com/hashin22</a></li>
         </ul>
       </section>
 
