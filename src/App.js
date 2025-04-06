@@ -5,7 +5,7 @@ import profile from './profile.jpg';
 
 function App() {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'Arial' }}>
+    <div className="resume-container">
       <header className="header">
         <img src={profile} alt="증명사진" className="profile-photo" />
         <div>
@@ -17,7 +17,8 @@ function App() {
         <ul>
           <li>이메일: hashin22@naver.com</li>
           <li>전화번호: 010-2554-0681</li>
-          <li>GitHub: <a href="https://github.com/hashin22/Resume" target="_blank" rel="noreferrer">github.com/hashin22</a></li>
+          <li>GitHub: <a href="https://github.com/hashin22/Resume" target="_blank" rel="noreferrer">github.com/hashin22</a>
+          </li>
         </ul>
       </section>
 
