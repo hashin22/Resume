@@ -69,40 +69,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* 사이드 메뉴 스타일 */
-.side-nav {
-  width: 200px;
-  height: 100vh;
-  background-color: #425c66;
-  padding-top: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 100;
-}
-.side-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 12px 0;
-  font-weight: bold;
-  font-size: 16px;
-  transition: color 0.3s;
-}
-
-.side-nav a:hover {
-  color: #f0a500;
-}
-
-/* 본문이 사이드바 옆으로 가게끔 여백 주기 */
-.resume-container {
-  margin-left: 200px;
-  padding: 40px;
-  max-width: 900px;
-}
-
 /* Skills */
 .skill-group {
   margin-bottom: 30px;
@@ -154,4 +120,38 @@ a:hover {
 /* ✅ 스무스 스크롤 */
 html {
   scroll-behavior: smooth;
+}
+
+/* 사이드 메뉴 스타일 */
+.side-nav {
+  width: 200px;
+  height: 100vh;
+  background-color: #425c66;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+.side-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 12px 0;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.side-nav a:hover {
+  color: #f0a500;
+}
+
+/* 본문이 사이드바 옆으로 가게끔 여백 주기 */
+.resume-container {
+  margin-left: 200px;
+  padding: 40px;
+  max-width: 900px;
 }
