@@ -117,6 +117,30 @@ a:hover {
   font-size: 15px;
 }
 
+.top-navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 1rem 2rem;
+  background-color: #ffffffcc;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.top-navbar a {
+  color: #007acc;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.top-navbar a:hover {
+  text-decoration: underline;
+}
+
+
 /* ✅ 스무스 스크롤 */
 html {
   scroll-behavior: smooth;
