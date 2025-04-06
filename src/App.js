@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'; // ✨ 스타일 연결
+import './App.css';
 import profile from './profile.jpg';
 import linux from './linux.png';
 import oracle from './oracle.jpg';
@@ -23,7 +23,6 @@ function App() {
           </div>
         </header>
 
-        {/* 📍 ABOUT ME */}
         <section id="about" className="section">
           <h2>👤 About Me</h2>
           <p>
@@ -31,20 +30,20 @@ function App() {
           </p>
           <h2>📞 연락처</h2>
           <ul>
-            <li>이메일: hashin22@naver.com</li>
-            <li>전화번호: 010-2554-0681</li>
-            <li>GitHub: <a href="https://hashin22.github.io/Resume" target="_blank" rel="noreferrer">github.com/hashin22</a></li>
+            <li>이메일: 1234@naver.com</li>
+            <li>전화번호: 010-1234-1234</li>
+            <li>
+              GitHub: <a href="https://hashin22.github.io/Resume" target="_blank" rel="noreferrer">github.com/hashin22</a>
+            </li>
           </ul>
         </section>
 
-        {/* 📍 EDUCATION */}
         <section className="section">
           <h2>🎓 학력</h2>
-          <p>덕문여자고등학교 이공계 졸업 (2017.02 ~ 2020.02)</p>
-          <p>동의의과학대학교 컴퓨터정보과 졸업 (2020.02 ~ 2022.03)</p>
+          <p>34여자고등학교 이공계 졸업 (2017.02 ~ 2020.02)</p>
+          <p>43의과학대학교 컴퓨터정보과 졸업 (2020.02 ~ 2022.03)</p>
         </section>
 
-        {/* 📍 EXPERIENCE */}
         <section className="section">
           <h2>🏢 경력요약</h2>
           <ul>
@@ -52,7 +51,6 @@ function App() {
           </ul>
         </section>
 
-        {/* 📍 SKILLS */}
         <section id="skills" className="section">
           <h2>🧰 Skills</h2>
 
@@ -81,7 +79,6 @@ function App() {
           </div>
         </section>
 
-        {/* 📍 PROJECTS */}
         <section id="projects" className="section">
           <h2>💼 Projects</h2>
 
@@ -113,7 +110,6 @@ function App() {
           </div>
         </section>
 
-        {/* 📍 LICENSE */}
         <section id="license" className="section">
           <h2>📜 Licenses & Certifications</h2>
           <div className="license-item">
@@ -128,9 +124,9 @@ function App() {
           <div className="license-item">
             <p>📌 운전면허 2종 보통 (Driver’s License – Type 2, Manual)</p>
           </div>
-          </section> {/* LICENSE */}
-      </div> {/* resume-container */}
-    </div> {/* main-layout */}
+        </section>
+      </div>
+    </div>
   );
 }
 
