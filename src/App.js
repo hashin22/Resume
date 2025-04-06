@@ -1,10 +1,25 @@
 // src/App.js
 import React from 'react';
+import profile from './profile.jpg'; // 바로 이 줄!
 
 function App() {
   return (
     <div style={{ padding: '2rem', fontFamily: 'Arial' }}>
-      <h1>👨‍💻 신하란 경력기술서</h1>
+      <h1>배움의 즐거움을 아는 서비스 운영자에 지원한 👨‍💻신하란입니다. </h1>
+      
+      <section>
+        <h2>📞 연락처</h2>
+        <ul>
+          <li>이메일: hong@example.com</li>
+          <li>전화번호: 010-1234-5678</li>
+          <li>GitHub: <a href="https://github.com/yourID" target="_blank" rel="noreferrer">github.com/yourID</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>🎓 학력</h2>
+        <p>서울대학교 컴퓨터공학과 졸업 (2018~2022)</p>
+      </section>
       
       <h2>🏢 경력요약</h2>
       <ul>
