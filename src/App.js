@@ -19,7 +19,7 @@ function App() {
         <header className="header">
           <img src={profile} alt="증명사진" className="profile-photo" />
           <div>
-            <h1>IT기획/서비스 운영에 지원한 👨‍💻 신하란입니다.</h1>
+            <h1>위트플러스 IT기획/서비스 운영에 지원한 👨‍💻 신하란입니다.</h1>
           </div>
         </header>
 
@@ -30,8 +30,8 @@ function App() {
           </p>
           <h2>📞 연락처</h2>
           <ul>
-            <li>이메일: 1234@naver.com</li>
-            <li>전화번호: 010-1234-1234</li>
+            <li>이메일: hashin22@naver.com</li>
+            <li>전화번호: 010-2554-0681</li>
             <li>
               GitHub: <a href="https://hashin22.github.io/Resume" target="_blank" rel="noreferrer">github.com/hashin22</a>
             </li>
@@ -40,8 +40,8 @@ function App() {
 
         <section className="section">
           <h2>🎓 학력</h2>
-          <p>34여자고등학교 이공계 졸업 (2017.02 ~ 2020.02)</p>
-          <p>43의과학대학교 컴퓨터정보과 졸업 (2020.02 ~ 2022.03)</p>
+          <p>덕문여자고등학교 이공계 졸업 (2017.02 ~ 2020.02)</p>
+          <p>동의과학대학교 컴퓨터정보과 졸업 (2020.02 ~ 2022.03)</p>
         </section>
 
         <section className="section">
