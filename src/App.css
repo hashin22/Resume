@@ -83,6 +83,25 @@ a:hover {
   top: 0;
   z-index: 100;
 }
+.side-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 12px 0;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.side-nav a:hover {
+  color: #f0a500;
+}
+
+/* 본문이 사이드바 옆으로 가게끔 여백 주기 */
+.resume-container {
+  margin-left: 200px;
+  padding: 40px;
+  max-width: 900px;
+}
 
 /* Skills */
 .skill-group {
