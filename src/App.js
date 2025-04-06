@@ -10,10 +10,10 @@ function App() {
     <div className="resume-container">
       {/* ✅ 사이드 메뉴 */}
       <nav className="side-nav">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#license">License</a>
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PROJECT</a>
+        <a href="#license">LICENSE</a>
       </nav>
 
       <header className="header">
