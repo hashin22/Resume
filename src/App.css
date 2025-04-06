@@ -81,7 +81,7 @@ a:hover {
   margin-top: 10px;
 }
 .skill-item img {
-  width: 60px;
+  width: 80px;
   height: auto;
   margin-right: 10px;
   vertical-align: middle;
@@ -115,4 +115,9 @@ a:hover {
   border-radius: 6px;
   color: #333;
   font-size: 15px;
+}
+
+/* ✅ 스무스 스크롤 */
+html {
+  scroll-behavior: smooth;
 }

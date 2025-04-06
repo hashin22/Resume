@@ -8,6 +8,14 @@ import js from './javascipt.png';
 function App() {
   return (
     <div className="resume-container">
+      {/* ✅ 사이드 메뉴 */}
+      <nav className="side-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#license">License</a>
+      </nav>
+
       <header className="header">
         <img src={profile} alt="증명사진" className="profile-photo" />
         <div>
@@ -16,7 +24,7 @@ function App() {
       </header>
 
       {/* 📍 ABOUT ME */}
-      <section className="section">
+      <section id="about" className="section">
         <h2>👤 About Me</h2>
         <p>
           안녕하세요. 새로운 기술들을 배우는 것을 즐기며, 피드백과 커뮤니케이션을 통해 실력 있는 시스템 운영자가 되고 싶습니다. DB 엔지니어로 근무했을 당시, 현업과 소통하며 시스템 안정성과 성능을 고민해온 경험을 바탕으로, 사용자 중심의 운영과 기술을 연결하는 역할을 잘 수행하도록 노력할 것입니다!
@@ -45,7 +53,7 @@ function App() {
       </section>
 
       {/* 📍 SKILLS */}
-      <section className="section">
+      <section id="skills" className="section">
         <h2>🧰 Skills</h2>
 
         <div className="skill-group">
@@ -74,7 +82,7 @@ function App() {
       </section>
 
       {/* 📍 PROJECTS */}
-      <section className="section">
+      <section id="projects" className="section">
         <h2>💼 Projects</h2>
 
         <div className="project-item">
@@ -106,7 +114,7 @@ function App() {
       </section>
 
       {/* 📍 LICENSE */}
-      <section className="section">
+      <section id="license" className="section">
         <h2>📜 Licenses & Certifications</h2>
 
         <div className="license-item">
