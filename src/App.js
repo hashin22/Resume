@@ -86,7 +86,7 @@ function App() {
         <h2>💼 Projects</h2>
 
         <div className="project-item">
-          <h3>⚙️ 건강보험공단 디지털 환경 확대 구축</h3>
+          <h3>⚙️ 건강보험공단 디지털 환경 확대 구축 (2024.01 ~ 2024. 04)</h3>
           <ul>
             <li>Oracle RAC 기반 시스템 구축 (8EA)</li>
             <li>AWR 기반 성능 분석 및 튜닝</li>
@@ -95,7 +95,7 @@ function App() {
         </div>
 
         <div className="project-item">
-          <h3>⚙️ 한국 언론 진흥 재단 차세대 HR 시스템 구축</h3>
+          <h3>⚙️ 한국 언론 진흥 재단 차세대 HR 시스템 구축 (2024.06 ~ 2024. 07)</h3>
           <ul>
             <li>Oracle 11g 설치 및 운영 DB와 구조 통일</li>
             <li>1차 개발 DB → 운영 DB 데이터 이관</li>
@@ -104,7 +104,7 @@ function App() {
         </div>
 
         <div className="project-item">
-          <h3>⚙️ 나라장터 DB 성능 테스트</h3>
+          <h3>⚙️ 나라장터 DB 성능 테스트(2024.07 ~ 2024. 09) </h3>
           <ul>
             <li>TPC-DS 기준 부하 테스트 수행</li>
             <li>AWR 리포트 분석을 통해 병목 구간 도출</li>
