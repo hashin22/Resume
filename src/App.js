@@ -114,7 +114,7 @@ function App() {
         <section id="license" className="section">
           <h2>📜 Licenses & Certifications</h2>
           <div className="license-item">
-            <p>📌 정보처리기사 (Engineer Information Processing)</p>
+            <p>📌 정보처리산업기사 (Industrial Engineer Information Processing)</p>
           </div>
           <div className="license-item">
             <p>📌 리눅스 마스터 2급 (Linux Master Level 2)</p>
