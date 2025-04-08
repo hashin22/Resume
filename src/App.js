@@ -114,13 +114,19 @@ function App() {
         <section id="license" className="section">
           <h2>📜 Licenses & Certifications</h2>
           <div className="license-item">
-            <p>📌 정보처리산업기사 (Industrial Engineer Information Processing)</p>
+            <p>📌 정보처리산업기사 (Industrial Engineer Information Processing)
+              취득기간: 2022.11.25
+            </p>
           </div>
           <div className="license-item">
-            <p>📌 리눅스 마스터 2급 (Linux Master Level 2)</p>
+            <p>📌 리눅스 마스터 2급 (Linux Master Level 2)
+            취득기간: 2023.03.31
+            </p>
           </div>
           <div className="license-item">
-            <p>📌 컴퓨터활용능력 2급 (Computer Utilization Level 2)</p>
+            <p>📌 컴퓨터활용능력 2급 (Computer Utilization Level 2)
+            취득기간: 2021.12.10
+            </p>
           </div>
           <div className="license-item">
             <p>📌 운전면허 2종 보통 (Driver’s License – Type 2, Manual)</p>
