@@ -19,7 +19,7 @@ function App() {
         <header className="header">
           <img src={profile} alt="증명사진" className="profile-photo" />
           <div>
-            <h1>위트플러스 IT기획/서비스 운영에 지원한 👨‍💻 신하란입니다.</h1>
+            <h1>유엔에이엔지니어링 DC운영팀에 지원한 👨‍💻 신하란입니다.</h1>
           </div>
         </header>
 
@@ -67,7 +67,7 @@ function App() {
             <h3>🎨 Front-End</h3>
             <div className="skill-item">
               <img src={js} alt="JavaScript" />
-              <p>HTML/CSS/JavaScript로 간단한 UI 구현 가능</p>
+              <p>JavaScript, JAVA로 간단한 UI 구현 가능</p>
             </div>
           </div>
 
